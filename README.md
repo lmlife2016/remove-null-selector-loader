@@ -36,10 +36,10 @@ html {
   }
 }
 ```
-remove-null-selector-loader will remove 'body:null-selector':
+remove-null-selector-loader will remove 'body:null-selector', css is like below:
 ```css
 html div { background: red; }
 ```
 
-## advantage
-keep nesting in less, but the css selector will not too long.
+## Why use it ?
+Keep nesting in less, but the css selector will not too long.
