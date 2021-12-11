@@ -26,3 +26,20 @@ module.exports = {
   },
 };
 ```
+then, you can write less like this:
+```less
+html {
+  body:null-selector {
+    div {
+      background: red;
+    }
+  }
+}
+```
+remove-null-selector-loader will remove 'body:null-selector':
+```css
+html div { background: red; }
+```
+
+## advantage
+keep nesting in less, but the css selector will not too long.
