@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "lmlife2016",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmlife2016/remove-null-selector-loader.git"
+  },
   "license": "ISC"
 }
